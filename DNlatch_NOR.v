@@ -28,8 +28,8 @@ module DNlatch_NOR(
 	 wire not_D,A,B ;
 	 
 	 NOR n1(D,D,not_D);	 
-	 NOR n2(not_D,En,A);
-	 NOR n3(D,En,B);
+	 NOR n2(D,En,A);
+	 NOR n3(not_D,En,B);
 	 NOR n4(A,not_Q,Q);
 	 NOR n5(B,Q,not_Q);
 

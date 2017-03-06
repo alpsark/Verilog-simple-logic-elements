@@ -29,8 +29,8 @@ module REG32(
 	 
 	 generate
 		  genvar i;
-		  for (i=0; i < 32; i=i+1) begin: m0a
-				DFF m0_i(clk,in[i],R,out[i] , );
+		  for (i=0; i < 32; i=i+1) begin: d
+				DFF d(clk,in[i],R,out[i] , );
 		  end		  
 	endgenerate
 

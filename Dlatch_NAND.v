@@ -31,7 +31,7 @@ module Dlatch_NAND(
 	 NAND n2(D,En,A);
 	 NAND n3(not_D,En,B);
 	 NAND n4(A,not_Q,Q);
-	 NAND n5(B,Q,not_Q);	
+	 NAND n5(B,Q,not_Q);	  
 		
 		
 

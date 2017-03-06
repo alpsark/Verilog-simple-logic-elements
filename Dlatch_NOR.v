@@ -29,8 +29,8 @@ module Dlatch_NOR(
 	 
 	 NOR n1(D,D,not_D);
 	 NOR n2(En,En,not_En);
-	 NOR n3(not_D,not_En,A);
-	 NOR n4(D,not_En,B);
+	 NOR n3(D,not_En,A);
+	 NOR n4(not_D,not_En,B);
 	 NOR n5(A,not_Q,Q);
 	 NOR n6(B,Q,not_Q);
 
